@@ -37,7 +37,7 @@ jobs:
 
     # 5. 생성된 HTML 리포트 업로드 (artifact로 저장)
     - name: Upload HTML report
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v3.2.2
       with:
         name: api-test-report
         path: reports/report.html
