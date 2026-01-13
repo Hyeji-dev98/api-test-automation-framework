@@ -1,5 +1,3 @@
-# api-test-automation-framework
-Python-based API test automation framework for E-commerce platform
 # API Test Automation Framework
 
 ## 📌 프로젝트 개요
@@ -83,9 +81,9 @@ api-test-automation-framework/
 │   └── allure-report/
 ├── requirements.txt
 └── README.md
+```
 
-
-##  테스트 구성
+## 🧪 테스트 구성
 
 1. Products API
  - 전체 상품 조회
