@@ -62,26 +62,28 @@ pytest tests/test_cart.py
 
 
 ## 📁 디렉토리 구조
+```text
 api-test-automation-framework/
 ├── config/
-│ ├── init.py
-│ └── config.py # API URL, 환경 설정
+│   ├── __init__.py
+│   └── config.py
 ├── tests/
-│ ├── init.py
-│ ├── test_products.py # 상품 API 테스트
-│ ├── test_cart.py # 장바구니 API 테스트
-│ ├── test_users.py # 사용자 API 테스트
-│ └── test_e2e_flow.py # E2E 사용자 구매 플로우 테스트
+│   ├── __init__.py
+│   ├── test_products.py
+│   ├── test_cart.py
+│   ├── test_users.py
+│   └── test_e2e_flow.py
 ├── utils/
-│ ├── init.py
-│ ├── api_client.py # API 호출 공통 함수
-│ └── test_data.py # 테스트 데이터
-├── reports/ # 테스트 리포트
-│ ├── report.html # Pytest HTML 리포트
-│ ├── allure-results/ # Allure raw 결과
-│ └── allure-report/ # Allure HTML 리포트
-├── requirements.txt # Python 의존성
+│   ├── __init__.py
+│   ├── api_client.py
+│   └── test_data.py
+├── reports/
+│   ├── report.html
+│   ├── allure-results/
+│   └── allure-report/
+├── requirements.txt
 └── README.md
+
 
 ##  테스트 구성
 
