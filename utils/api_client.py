@@ -7,7 +7,11 @@ class APIClient:
     def __init__(self):
         self.base_url = Config.BASE_URL
         self.session = requests.Session()
-
+        self.session.headers.update({
+            "User-Agent": "Mozilla/5.0 (GitHub Actions)",
+            "Accept": "application/json",
+            "Content-Type": "application/json"
+        })
     def get(self, path):
         return self.session.get(self.base_url + path)
 
